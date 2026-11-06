@@ -66,8 +66,8 @@ window.BDAY = {
       file: "assets/video-singing.mp4"
     },
     {
-      title: "Made by you, for us",
-      caption: "Her edits. Still the best thing on my phone.",
+     title: "Made by me, for u",
+      caption: "your photos. Still the best thing on my phone.",
       file: "assets/video-edits.mp4"
     }
   ],
