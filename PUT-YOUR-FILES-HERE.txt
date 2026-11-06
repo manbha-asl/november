@@ -1,4 +1,0 @@
-Put your files here:
-  video-singing.mp4
-  video-edits.mp4
-  song.mp3
