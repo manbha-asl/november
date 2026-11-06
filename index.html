@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Happy Birthday 🌻</title>
+<meta name="theme-color" content="#fbf4e4">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,700;1,9..144,500&family=Gaegu:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="locked">
+
+<canvas id="confetti" aria-hidden="true"></canvas>
+<div id="petals" aria-hidden="true"></div>
+
+<!-- Opening screen -->
+<section id="gate">
+  <div class="gate-card">
+    <div id="gateFlower" class="gate-flower"></div>
+    <p id="gateText" class="gate-text"></p>
+    <button id="openBtn" class="btn"></button>
+  </div>
+</section>
+
+<!-- Music button -->
+<button id="musicBtn" class="music" aria-label="Toggle music" title="Music">
+  <span class="music-icon">♪</span>
+  <span class="music-bars"><i></i><i></i><i></i></span>
+</button>
+<div id="toast" class="toast" role="status"></div>
+
+<main id="site">
+
+  <!-- Hero -->
+  <header class="hero">
+    <p class="kicker reveal">today is all about</p>
+    <h1 class="hero-title reveal">Happy Birthday<span class="red">,</span><br><span id="heroName" class="hero-name"></span></h1>
+    <div class="cake-wrap reveal">
+      <div id="cake"></div>
+      <p id="wishHint" class="hint"></p>
+    </div>
+    <p id="wishDone" class="wish-done"></p>
+    <a href="#letter" class="scroll-cue" aria-label="Scroll down"><span></span></a>
+  </header>
+
+  <!-- Letter -->
+  <section id="letter" class="section">
+    <div class="paper reveal">
+      <div class="paper-tape"></div>
+      <h2 id="letterTitle" class="letter-title"></h2>
+      <div id="letterBody" class="letter-body"></div>
+      <p id="letterSign" class="letter-sign"></p>
+    </div>
+  </section>
+
+  <!-- Bouquet -->
+  <section class="section bouquet-section">
+    <div id="bouquet" class="bouquet reveal"></div>
+    <p class="bouquet-cap reveal">These ones never wilt. 🌻</p>
+  </section>
+
+  <!-- Reasons -->
+  <section class="section">
+    <h2 id="reasonsTitle" class="h2 reveal"></h2>
+    <p class="counter reveal"><span id="found">0</span> / <span id="total">21</span> found</p>
+    <div id="reasons" class="reasons"></div>
+  </section>
+
+  <!-- Videos -->
+  <section class="section videos-section">
+    <h2 id="videosTitle" class="h2 reveal"></h2>
+    <div id="videos" class="videos"></div>
+  </section>
+
+  <!-- Finale -->
+  <section class="section finale">
+    <div id="finaleFlower" class="finale-flower reveal"></div>
+    <button id="surpriseBtn" class="btn reveal">One more surprise 🎉</button>
+    <p id="footer" class="footer"></p>
+  </section>
+
+</main>
+
+<script src="config.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
